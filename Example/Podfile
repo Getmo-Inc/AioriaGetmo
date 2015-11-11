@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'AioriaGetmo_Example', :exclusive => true do
+  pod "AioriaGetmo", :path => "../"
+end
+
+target 'AioriaGetmo_Tests', :exclusive => true do
+  pod "AioriaGetmo", :path => "../"
+
+  pod 'FBSnapshotTestCase'
+end
