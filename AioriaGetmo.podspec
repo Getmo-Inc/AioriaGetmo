@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = "AioriaGetmo"
   s.version          = "0.1.0"
-  s.summary          = "A short description of AioriaGetmo."
+  s.summary          = "Biblioteca de integração com o Framework de Push da Getmo"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,13 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
   s.description      = <<-DESC
+Integração com o Framework de Push da Getmo. Desenvolvido pela Aioria através do código disponível pela própria Getmo.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/AioriaGetmo"
+  s.homepage         = "https://github.com/aioriash/AioriaGetmo.git"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Gustavo Tagliari" => "gustavo@aioria.com.br" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/AioriaGetmo.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/aioriash/AioriaGetmo.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.platform     = :ios, '7.0'
