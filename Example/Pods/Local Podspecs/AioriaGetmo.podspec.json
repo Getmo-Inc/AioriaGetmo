@@ -1,15 +1,15 @@
 {
   "name": "AioriaGetmo",
   "version": "0.1.0",
-  "summary": "A short description of AioriaGetmo.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/AioriaGetmo",
+  "summary": "Biblioteca de integração com o Framework de Push da Getmo",
+  "description": "Integração com o Framework de Push da Getmo. Desenvolvido pela Aioria através do código disponível pela própria Getmo.",
+  "homepage": "https://github.com/aioriash/AioriaGetmo.git",
   "license": "MIT",
   "authors": {
     "Gustavo Tagliari": "gustavo@aioria.com.br"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/AioriaGetmo.git",
+    "git": "https://github.com/aioriash/AioriaGetmo.git",
     "tag": "0.1.0"
   },
   "platforms": {

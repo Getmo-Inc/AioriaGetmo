@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '49C7FAB1C300250C36313C75'
+               BlueprintIdentifier = '96AA903AA0528C60D2ACF9B2'
                BlueprintName = 'AioriaGetmo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'AioriaGetmo.framework'>

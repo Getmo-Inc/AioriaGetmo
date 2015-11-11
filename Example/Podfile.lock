@@ -15,7 +15,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  AioriaGetmo: c0d9f30ab009fe6619cd6c4982dc4b24cad57e5a
+  AioriaGetmo: ff169eed751812081f893be0bc90e3b6b1fea24a
   FBSnapshotTestCase: 7e85180d0d141a0cf472352edda7e80d7eaeb547
 
 COCOAPODS: 0.39.0

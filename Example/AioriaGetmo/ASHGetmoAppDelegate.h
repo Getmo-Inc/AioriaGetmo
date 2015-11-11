@@ -8,7 +8,9 @@
 
 @import UIKit;
 
-@interface ASHGetmoAppDelegate : UIResponder <UIApplicationDelegate>
+#import "AioriaGetmo/SmartpushSDK/SmartpushSDK.h"
+
+@interface ASHGetmoAppDelegate : UIResponder <UIApplicationDelegate, SmartpushSDKDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
