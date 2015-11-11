@@ -7,76 +7,63 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0E3032281FB2FC17252C7D01CDA255A0 /* Pods-AioriaGetmo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88582506FF24F3E0A73F03EB4468A1DC /* Pods-AioriaGetmo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0EA5E9091BF3F7DB00DDECA9 /* SmartpushSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA5E9081BF3F7DB00DDECA9 /* SmartpushSDK.framework */; };
 		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		209FB4D9F1396850CF27FCAAC6F34A16 /* Pods-AioriaGetmo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E81C5A21A693271165A1539DF7D90C /* Pods-AioriaGetmo_Example-dummy.m */; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
-		2E7C573191AC1B68E74D092988D11193 /* SmartpushSDK in Sources */ = {isa = PBXBuildFile; fileRef = F529643DD6F059DA95F5B4FFC97B5386 /* SmartpushSDK */; };
 		35848D70EAC9237246BDF63457729694 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */; };
 		41D8739E2720D3535592391C25507158 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48C2B995558C034383709383A0AC711C /* AioriaGetmo.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6E3B07AC13E6C3DF49588A6DE6816F93 /* AioriaGetmo.bundle */; };
 		52B0263F90696E7FD87CB146D5C5E2C1 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		52F7A46AB0053D8BB1D793B917D37BB2 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */; };
-		57BD4BBEF71BACFD682007A56DBB1041 /* SmartpushSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE11766677569525549F4A8B218DC6B /* SmartpushSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AB188B275B72DAAC137D19D5DE00312 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		5D14695A69EC4A8DF7488D0FC59C105C /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */; };
 		723FDDFD804188090511DEFA8309A06B /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		7566C48E7F2EB9E64D2A53252F2FAC94 /* Pods-AioriaGetmo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F8728CC0885B5C675DF574D4C83B40 /* Pods-AioriaGetmo_Tests-dummy.m */; };
 		788E3D9458FE9540469981BE9A0B227C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */; };
 		7BEF20E09F0E864478905311672F91AB /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7E1C536F165EA4E69D33CBF0595289CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		8009A78C1644B2DF7714A5EA3E42016D /* AioriaGetmo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ECF81C3505162456B1C9CD32892852F /* AioriaGetmo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		816F743BE699C02CE4052BD8ABEAB7DE /* AioriaGetmo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 939E8A5C1C5A57721246A0F6DE8B3B53 /* AioriaGetmo-dummy.m */; };
 		821A26883ED14BDCD7EBADD37D671D17 /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		84BF6CFEBCDD2BE4C5833616F23B68D0 /* Pods-AioriaGetmo_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F8728CC0885B5C675DF574D4C83B40 /* Pods-AioriaGetmo_Tests-dummy.m */; };
-		8B890997FA06F1D49BB6A957AB525CC5 /* SmartpushDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 2EFBA5826AF911C21F59212E3F541384 /* SmartpushDevice.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CD0BA581BE706815CBAF7BC922DCA99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		8D549E01DA1D5104335CCEABFF870005 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		A665396B5ADBB9218A79F02EBA4E4432 /* SmartpushUser.h in Headers */ = {isa = PBXBuildFile; fileRef = B587D1D6F0271877C865D24757A02AC5 /* SmartpushUser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A6CFA2E9FEB431DEEE597EEED14E3BE8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
 		AA8501741ABB8D75C6C47DE086BACD37 /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */; };
 		AD4D905241DED4AEAD67447088ACB23D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */; };
+		B2B7C4E592DD99C69637367307BC8E71 /* Pods-AioriaGetmo_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 16E81C5A21A693271165A1539DF7D90C /* Pods-AioriaGetmo_Example-dummy.m */; };
+		BE89C566A1B06DF89DE3EC2F373888E7 /* Pods-AioriaGetmo_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88582506FF24F3E0A73F03EB4468A1DC /* Pods-AioriaGetmo_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC2BD0A04199B280AD93F459968CAFC2 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */; };
 		CF9DB2096C715EA61E263021EE406DB1 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */; };
-		D7E43DA704981388F75F2D70CE95E1A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */; };
-		E4B6538457C6D28CE465C52D12B4E7C1 /* Pods-AioriaGetmo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309B1AC3A008D999151D2297F1597BD6 /* Pods-AioriaGetmo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EDD91D0CC316AC322E1607D3749F1C0A /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */; };
+		F80979A182F3EBF2FB6EDC0831EDC122 /* Pods-AioriaGetmo_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 309B1AC3A008D999151D2297F1597BD6 /* Pods-AioriaGetmo_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2232EE31845A4FA637EAE47C3F58A0CE /* PBXContainerItemProxy */ = {
+		3DF409478568038D61E0DCDE3801CAEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95F94E415642F4EA402C2FC7145D97A8;
+			remoteInfo = "AioriaGetmo-AioriaGetmo";
+		};
+		3E8869C3D830610DC5AD8D7C7CFC8B66 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A5C935B614DD08342117AD0B06959CB9;
 			remoteInfo = FBSnapshotTestCase;
 		};
-		A57A01BC7488702C2D09E8AC21AB87AF /* PBXContainerItemProxy */ = {
+		D4A27CABD4BFDC8F915980037D4AE1EC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B5E4BED498FC3288C92EDB92904A8764;
-			remoteInfo = AioriaGetmo;
-		};
-		A8680CD13BE1B9119EF9F9E387793A36 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B5E4BED498FC3288C92EDB92904A8764;
-			remoteInfo = AioriaGetmo;
-		};
-		AD9DC40FF243A2A76DD56F1A29F81E54 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 97CFF89171E94AC0DFF09744F3F2ECED;
+			remoteGlobalIDString = 95F94E415642F4EA402C2FC7145D97A8;
 			remoteInfo = "AioriaGetmo-AioriaGetmo";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022BFB7D8F6E7968331B1699A2BDA28F /* Pods_AioriaGetmo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AioriaGetmo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		063664529E1322489F3F8AB784B21086 /* Pods_AioriaGetmo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AioriaGetmo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0ECF81C3505162456B1C9CD32892852F /* AioriaGetmo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AioriaGetmo-umbrella.h"; sourceTree = "<group>"; };
+		0D03F86529CA7E403077203197B40F57 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0EA5E9081BF3F7DB00DDECA9 /* SmartpushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartpushSDK.framework; sourceTree = "<group>"; };
 		0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
@@ -86,68 +73,64 @@
 		1AD873BC718A3B57BC17D2600FFF4C99 /* Pods-AioriaGetmo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AioriaGetmo_Example-resources.sh"; sourceTree = "<group>"; };
 		2393D1A899C707F79A64672C46ED238F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2523693A8A7BA4278BFC866F16021FFF /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
-		2AC7443887ECC6E902D6D0E5091E6560 /* AioriaGetmo-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AioriaGetmo-prefix.pch"; sourceTree = "<group>"; };
-		2EFBA5826AF911C21F59212E3F541384 /* SmartpushDevice.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartpushDevice.h; sourceTree = "<group>"; };
 		309B1AC3A008D999151D2297F1597BD6 /* Pods-AioriaGetmo_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AioriaGetmo_Example-umbrella.h"; sourceTree = "<group>"; };
 		3CDD9962E7C6687DEEC40FC2F5F6DC17 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42A681D3AF997235908A3089BB9BCB20 /* FBSnapshotTestCase.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.xcconfig; sourceTree = "<group>"; };
 		4840EADBD265BC2DE9C9E29067F534BD /* Pods-AioriaGetmo_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AioriaGetmo_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4AC2C5814DCFC7590AC8C46AAB7FCEEF /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		4C32DB3B31BE0AFDC5301D2D7F832E14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4D6080979E38CCB456708E0243E58F27 /* SmartpushSDK */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = SmartpushSDK; sourceTree = "<group>"; };
 		5121BCE99CCFB208275F3437CCF6EBB6 /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		5999002674B86E70DC7970CEA62F278E /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
 		5D7E1BADF3D238F70F8E843F9EB5B15E /* Pods-AioriaGetmo_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AioriaGetmo_Example-frameworks.sh"; sourceTree = "<group>"; };
 		61F3F0A33E615410B951DAC288A27854 /* Pods-AioriaGetmo_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AioriaGetmo_Example.release.xcconfig"; sourceTree = "<group>"; };
-		6E3B07AC13E6C3DF49588A6DE6816F93 /* AioriaGetmo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AioriaGetmo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		6EA9BCCB82E5CAF3B1C451CD436E2673 /* Pods-AioriaGetmo_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AioriaGetmo_Example.modulemap"; sourceTree = "<group>"; };
 		70708544D752A0FCB6B7F772DC7E09DD /* Pods-AioriaGetmo_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AioriaGetmo_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
-		7307092E01415C63086281CF1410E447 /* AioriaGetmo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AioriaGetmo.xcconfig; sourceTree = "<group>"; };
 		7CAAAB29C54DB2D5220028C4110E45E6 /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		88582506FF24F3E0A73F03EB4468A1DC /* Pods-AioriaGetmo_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AioriaGetmo_Tests-umbrella.h"; sourceTree = "<group>"; };
-		939E8A5C1C5A57721246A0F6DE8B3B53 /* AioriaGetmo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AioriaGetmo-dummy.m"; sourceTree = "<group>"; };
-		99F2EE36824DD4B1BFC06E389E98F18A /* Pods_AioriaGetmo_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AioriaGetmo_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A421EF36310E0BE86C35E17166672945 /* AioriaGetmo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AioriaGetmo.modulemap; sourceTree = "<group>"; };
 		A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
 		B0EB93AD880461D130616057785A9C30 /* Pods-AioriaGetmo_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AioriaGetmo_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B3D08C65AB18ACF0D05C7C79DB5737E4 /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
 		B52885A26FC1497508940F88306BE27C /* Pods-AioriaGetmo_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AioriaGetmo_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B587D1D6F0271877C865D24757A02AC5 /* SmartpushUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartpushUser.h; sourceTree = "<group>"; };
 		B715232B33FB90ECA4A93BE77B98F893 /* Pods-AioriaGetmo_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AioriaGetmo_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFFD97972C24EE7435D0E04686569BBE /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
 		C0E495A180642AA6612AFB88EDA23099 /* Pods-AioriaGetmo_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AioriaGetmo_Tests-resources.sh"; sourceTree = "<group>"; };
+		C16C27CBE858FCFA879D88A00A7270E3 /* AioriaGetmo.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AioriaGetmo.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C52D7EC712BD7D3DF9AD210BFF9A3474 /* Pods_AioriaGetmo_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AioriaGetmo_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C702CEF716B7B094CCF9829E8E2FEB9C /* Pods-AioriaGetmo_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AioriaGetmo_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		CBBE4ED7601B52A974A731CEE0D65E0D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D1FB195558CD0054FD0C31CD5DBA6982 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31B096AB4A0164C61B63F0E59AD76C9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		DF90F95FC2B36AB64D2FB3AF22E996D2 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		E38041D93EDE9398D62F150F8F25DE47 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
 		E8852BA178BDB915132FD12441265E4F /* Pods-AioriaGetmo_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AioriaGetmo_Tests.modulemap"; sourceTree = "<group>"; };
 		E8F8728CC0885B5C675DF574D4C83B40 /* Pods-AioriaGetmo_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AioriaGetmo_Tests-dummy.m"; sourceTree = "<group>"; };
-		F529643DD6F059DA95F5B4FFC97B5386 /* SmartpushSDK */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; path = SmartpushSDK; sourceTree = "<group>"; };
 		F77DD4D0E2AF37EDDD2421D26ABC8CFD /* Pods-AioriaGetmo_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AioriaGetmo_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		FBE11766677569525549F4A8B218DC6B /* SmartpushSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SmartpushSDK.h; sourceTree = "<group>"; };
-		FCC30CDC45F1F100D9C87FDCA7EE5735 /* AioriaGetmo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AioriaGetmo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		497383C7C541EB688D59DD168BA614F6 /* Frameworks */ = {
+		42CEC2B1424E6018D4F880640B1E1D49 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5AB188B275B72DAAC137D19D5DE00312 /* Foundation.framework in Frameworks */,
+				A6CFA2E9FEB431DEEE597EEED14E3BE8 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7CE952AB0CF72071B3F0AD899B61C97E /* Frameworks */ = {
+		5A291C621996C7BAE107EF538A87C4AF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E1C536F165EA4E69D33CBF0595289CC /* Foundation.framework in Frameworks */,
+				0EA5E9091BF3F7DB00DDECA9 /* SmartpushSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		791E8FCBDB675BC74F11C24F6C0BCDA2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CD0BA581BE706815CBAF7BC922DCA99 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -162,41 +145,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CDF006F3A6BF7BB53CBF6E159F058AFD /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EFF150D2D2B500CEC1155EF092F98628 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D7E43DA704981388F75F2D70CE95E1A3 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0D55414FB50F4E23AF681D928CA4437C /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				79A160AFBE56ADD8E1879D7F8A333B52 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		100D0948BC2F098363D6EBBBC3091B81 /* SmartpushSDK.framework */ = {
-			isa = PBXGroup;
-			children = (
-				4D6080979E38CCB456708E0243E58F27 /* SmartpushSDK */,
-				169F4069853B63C2B6CC16A7E92CB64F /* Versions */,
-			);
-			path = SmartpushSDK.framework;
-			sourceTree = "<group>";
-		};
 		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,20 +156,20 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		169F4069853B63C2B6CC16A7E92CB64F /* Versions */ = {
-			isa = PBXGroup;
-			children = (
-				FA02AD6DA250C8E1C9A38EC7AD637EC8 /* A */,
-			);
-			path = Versions;
-			sourceTree = "<group>";
-		};
 		329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
 				FDE5208FE4A05C9114818BC72105E5F7 /* SwiftSupport.swift */,
 			);
 			name = SwiftSupport;
+			sourceTree = "<group>";
+		};
+		49A307D2FCE2AB8B6B359F34E131D1D9 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7203C0F65D86AB94FAD27BC1A376047 /* AioriaGetmo */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		5060B33D8CFD3C2E88D6F156E54E3265 /* Core */ = {
@@ -240,26 +191,6 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
-		54F0343B45EA7D365632A66153AFF4B1 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				6E3B07AC13E6C3DF49588A6DE6816F93 /* AioriaGetmo.bundle */,
-				FCC30CDC45F1F100D9C87FDCA7EE5735 /* AioriaGetmo.framework */,
-				D1FB195558CD0054FD0C31CD5DBA6982 /* FBSnapshotTestCase.framework */,
-				063664529E1322489F3F8AB784B21086 /* Pods_AioriaGetmo_Example.framework */,
-				99F2EE36824DD4B1BFC06E389E98F18A /* Pods_AioriaGetmo_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		64C2346B23D578B42C3EF0F24A78D072 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				D6E5B82AA0C02B39BB1A32A7E71C73AB /* AioriaGetmo */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		772802E93FC7C033C99D4A0ACFFFD652 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,22 +200,14 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79A160AFBE56ADD8E1879D7F8A333B52 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				100D0948BC2F098363D6EBBBC3091B81 /* SmartpushSDK.framework */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				64C2346B23D578B42C3EF0F24A78D072 /* Development Pods */,
+				49A307D2FCE2AB8B6B359F34E131D1D9 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
-				54F0343B45EA7D365632A66153AFF4B1 /* Products */,
+				B8DF8381640D2570D83B6C922D2BB716 /* Products */,
 				772802E93FC7C033C99D4A0ACFFFD652 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -317,20 +240,6 @@
 			path = "Target Support Files/Pods-AioriaGetmo_Example";
 			sourceTree = "<group>";
 		};
-		A64C72D839E5D642DDA8196146A0CC78 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				A421EF36310E0BE86C35E17166672945 /* AioriaGetmo.modulemap */,
-				7307092E01415C63086281CF1410E447 /* AioriaGetmo.xcconfig */,
-				939E8A5C1C5A57721246A0F6DE8B3B53 /* AioriaGetmo-dummy.m */,
-				2AC7443887ECC6E902D6D0E5091E6560 /* AioriaGetmo-prefix.pch */,
-				0ECF81C3505162456B1C9CD32892852F /* AioriaGetmo-umbrella.h */,
-				CBBE4ED7601B52A974A731CEE0D65E0D /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/AioriaGetmo";
-			sourceTree = "<group>";
-		};
 		A78CE87681B42105A65DA44E0F79FC82 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -344,14 +253,15 @@
 			path = "../Target Support Files/FBSnapshotTestCase";
 			sourceTree = "<group>";
 		};
-		C786104225F430D0F69FBBD4817229D6 /* Headers */ = {
+		B8DF8381640D2570D83B6C922D2BB716 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2EFBA5826AF911C21F59212E3F541384 /* SmartpushDevice.h */,
-				FBE11766677569525549F4A8B218DC6B /* SmartpushSDK.h */,
-				B587D1D6F0271877C865D24757A02AC5 /* SmartpushUser.h */,
+				C16C27CBE858FCFA879D88A00A7270E3 /* AioriaGetmo.bundle */,
+				0D03F86529CA7E403077203197B40F57 /* FBSnapshotTestCase.framework */,
+				C52D7EC712BD7D3DF9AD210BFF9A3474 /* Pods_AioriaGetmo_Example.framework */,
+				022BFB7D8F6E7968331B1699A2BDA28F /* Pods_AioriaGetmo_Tests.framework */,
 			);
-			path = Headers;
+			name = Products;
 			sourceTree = "<group>";
 		};
 		CD3FB7D37E46A5379C926728A416D78E /* iOS */ = {
@@ -363,16 +273,6 @@
 				853C84AC883B6FC690E82525E7ECB377 /* XCTest.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		D6E5B82AA0C02B39BB1A32A7E71C73AB /* AioriaGetmo */ = {
-			isa = PBXGroup;
-			children = (
-				0D55414FB50F4E23AF681D928CA4437C /* Pod */,
-				A64C72D839E5D642DDA8196146A0CC78 /* Support Files */,
-			);
-			name = AioriaGetmo;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		F115A4EF926034160995FABAA5417ADB /* Pods-AioriaGetmo_Tests */ = {
@@ -393,13 +293,13 @@
 			path = "Target Support Files/Pods-AioriaGetmo_Tests";
 			sourceTree = "<group>";
 		};
-		FA02AD6DA250C8E1C9A38EC7AD637EC8 /* A */ = {
+		F7203C0F65D86AB94FAD27BC1A376047 /* AioriaGetmo */ = {
 			isa = PBXGroup;
 			children = (
-				F529643DD6F059DA95F5B4FFC97B5386 /* SmartpushSDK */,
-				C786104225F430D0F69FBBD4817229D6 /* Headers */,
+				0EA5E9081BF3F7DB00DDECA9 /* SmartpushSDK.framework */,
 			);
-			path = A;
+			name = AioriaGetmo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {
@@ -413,14 +313,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		326686A3F4716F96B35EB2606C476362 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0E3032281FB2FC17252C7D01CDA255A0 /* Pods-AioriaGetmo_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		6A3BB9E32BDAD9EDB00EDFE657BDB001 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -434,72 +326,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EB653E2CA4A9F85C5CCBA9F1B48B367F /* Headers */ = {
+		74E93CC0E3DF0B4CB879369FC50D0080 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4B6538457C6D28CE465C52D12B4E7C1 /* Pods-AioriaGetmo_Example-umbrella.h in Headers */,
+				BE89C566A1B06DF89DE3EC2F373888E7 /* Pods-AioriaGetmo_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F40A15F361A8C4EBDC4AB0F15C599C92 /* Headers */ = {
+		CAED6F3935839178082CDE547E4E6A55 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8009A78C1644B2DF7714A5EA3E42016D /* AioriaGetmo-umbrella.h in Headers */,
-				8B890997FA06F1D49BB6A957AB525CC5 /* SmartpushDevice.h in Headers */,
-				57BD4BBEF71BACFD682007A56DBB1041 /* SmartpushSDK.h in Headers */,
-				A665396B5ADBB9218A79F02EBA4E4432 /* SmartpushUser.h in Headers */,
+				F80979A182F3EBF2FB6EDC0831EDC122 /* Pods-AioriaGetmo_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		59F618B108D47DB41D0018B97F362833 /* Pods-AioriaGetmo_Tests */ = {
+		01FAEF233F55E70706B73F94EF4BE55B /* Pods-AioriaGetmo_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DF642A1DFB2842F0A6BCAF393F4659E /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Tests" */;
+			buildConfigurationList = ABF0F66EE666802C3B37418E2C9859E5 /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Tests" */;
 			buildPhases = (
-				5DAC90D3CFCE0D9DB5969E0F8A16DE18 /* Sources */,
-				EFF150D2D2B500CEC1155EF092F98628 /* Frameworks */,
-				326686A3F4716F96B35EB2606C476362 /* Headers */,
+				FA32449E013842B7A20DF21D67D14444 /* Sources */,
+				791E8FCBDB675BC74F11C24F6C0BCDA2 /* Frameworks */,
+				74E93CC0E3DF0B4CB879369FC50D0080 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78ABDDA16A10EAE11960C4774B1C7310 /* PBXTargetDependency */,
-				032CF3D37C4526948A5BA377277416DA /* PBXTargetDependency */,
+				7CBF3EDF5A7F9C020A45DD2976C4FC49 /* PBXTargetDependency */,
+				76E0378A09F4881A9962719A6C606CA5 /* PBXTargetDependency */,
 			);
 			name = "Pods-AioriaGetmo_Tests";
 			productName = "Pods-AioriaGetmo_Tests";
-			productReference = 99F2EE36824DD4B1BFC06E389E98F18A /* Pods_AioriaGetmo_Tests.framework */;
+			productReference = 022BFB7D8F6E7968331B1699A2BDA28F /* Pods_AioriaGetmo_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		862AC22F42C0297BFAA5439B63A17808 /* Pods-AioriaGetmo_Example */ = {
+		95F94E415642F4EA402C2FC7145D97A8 /* AioriaGetmo-AioriaGetmo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 67346A5F2286D0DA3FA50BD6DA152A34 /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Example" */;
+			buildConfigurationList = CC961DA5FA187C9FD324CB623FAD5C74 /* Build configuration list for PBXNativeTarget "AioriaGetmo-AioriaGetmo" */;
 			buildPhases = (
-				AAAED7DB88F8D1D427A56BC193EFFCE8 /* Sources */,
-				7CE952AB0CF72071B3F0AD899B61C97E /* Frameworks */,
-				EB653E2CA4A9F85C5CCBA9F1B48B367F /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BD3038BE46993B96A57CECB8DB315C80 /* PBXTargetDependency */,
-			);
-			name = "Pods-AioriaGetmo_Example";
-			productName = "Pods-AioriaGetmo_Example";
-			productReference = 063664529E1322489F3F8AB784B21086 /* Pods_AioriaGetmo_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		97CFF89171E94AC0DFF09744F3F2ECED /* AioriaGetmo-AioriaGetmo */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 36393478D2F7E72BBA9D25E34CB75129 /* Build configuration list for PBXNativeTarget "AioriaGetmo-AioriaGetmo" */;
-			buildPhases = (
-				3E57CA1E2C3C71B3705202E2C1C9F4CC /* Sources */,
-				CDF006F3A6BF7BB53CBF6E159F058AFD /* Frameworks */,
-				8FBBAB1370089E824631DBF3B1B2E7DB /* Resources */,
+				F9F15112744C8F0805AFD2FA91FD5EFE /* Sources */,
+				5A291C621996C7BAE107EF538A87C4AF /* Frameworks */,
+				557973195C8317B776D936047A3C6B3E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -507,7 +378,7 @@
 			);
 			name = "AioriaGetmo-AioriaGetmo";
 			productName = "AioriaGetmo-AioriaGetmo";
-			productReference = 6E3B07AC13E6C3DF49588A6DE6816F93 /* AioriaGetmo.bundle */;
+			productReference = C16C27CBE858FCFA879D88A00A7270E3 /* AioriaGetmo.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */ = {
@@ -524,26 +395,25 @@
 			);
 			name = FBSnapshotTestCase;
 			productName = FBSnapshotTestCase;
-			productReference = D1FB195558CD0054FD0C31CD5DBA6982 /* FBSnapshotTestCase.framework */;
+			productReference = 0D03F86529CA7E403077203197B40F57 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		B5E4BED498FC3288C92EDB92904A8764 /* AioriaGetmo */ = {
+		CF0A601ACB0455004D66113E42204464 /* Pods-AioriaGetmo_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 621DC3243A8BF357B41ED353288A9FDC /* Build configuration list for PBXNativeTarget "AioriaGetmo" */;
+			buildConfigurationList = D64D3A07F99628C4E44BF1BA622840F4 /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Example" */;
 			buildPhases = (
-				6ADF13E18D18CE4EC4D0DC4AA771D0B0 /* Sources */,
-				497383C7C541EB688D59DD168BA614F6 /* Frameworks */,
-				A7AC2800BEA98CD8B51BA64E52F028EC /* Resources */,
-				F40A15F361A8C4EBDC4AB0F15C599C92 /* Headers */,
+				AAD8635159130537029A7E355F4ABA4D /* Sources */,
+				42CEC2B1424E6018D4F880640B1E1D49 /* Frameworks */,
+				CAED6F3935839178082CDE547E4E6A55 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FAB47C7628F8D4120161D3140B5B35FC /* PBXTargetDependency */,
+				A3219EE8FAF732788EC664E181481A1C /* PBXTargetDependency */,
 			);
-			name = AioriaGetmo;
-			productName = AioriaGetmo;
-			productReference = FCC30CDC45F1F100D9C87FDCA7EE5735 /* AioriaGetmo.framework */;
+			name = "Pods-AioriaGetmo_Example";
+			productName = "Pods-AioriaGetmo_Example";
+			productReference = C52D7EC712BD7D3DF9AD210BFF9A3474 /* Pods_AioriaGetmo_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -563,32 +433,23 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 54F0343B45EA7D365632A66153AFF4B1 /* Products */;
+			productRefGroup = B8DF8381640D2570D83B6C922D2BB716 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5E4BED498FC3288C92EDB92904A8764 /* AioriaGetmo */,
-				97CFF89171E94AC0DFF09744F3F2ECED /* AioriaGetmo-AioriaGetmo */,
+				95F94E415642F4EA402C2FC7145D97A8 /* AioriaGetmo-AioriaGetmo */,
 				A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */,
-				862AC22F42C0297BFAA5439B63A17808 /* Pods-AioriaGetmo_Example */,
-				59F618B108D47DB41D0018B97F362833 /* Pods-AioriaGetmo_Tests */,
+				CF0A601ACB0455004D66113E42204464 /* Pods-AioriaGetmo_Example */,
+				01FAEF233F55E70706B73F94EF4BE55B /* Pods-AioriaGetmo_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8FBBAB1370089E824631DBF3B1B2E7DB /* Resources */ = {
+		557973195C8317B776D936047A3C6B3E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A7AC2800BEA98CD8B51BA64E52F028EC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				48C2B995558C034383709383A0AC711C /* AioriaGetmo.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -610,65 +471,49 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3E57CA1E2C3C71B3705202E2C1C9F4CC /* Sources */ = {
+		AAD8635159130537029A7E355F4ABA4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2B7C4E592DD99C69637367307BC8E71 /* Pods-AioriaGetmo_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9F15112744C8F0805AFD2FA91FD5EFE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DAC90D3CFCE0D9DB5969E0F8A16DE18 /* Sources */ = {
+		FA32449E013842B7A20DF21D67D14444 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84BF6CFEBCDD2BE4C5833616F23B68D0 /* Pods-AioriaGetmo_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6ADF13E18D18CE4EC4D0DC4AA771D0B0 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				816F743BE699C02CE4052BD8ABEAB7DE /* AioriaGetmo-dummy.m in Sources */,
-				2E7C573191AC1B68E74D092988D11193 /* SmartpushSDK in Sources */,
-				2E7C573191AC1B68E74D092988D11193 /* SmartpushSDK in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AAAED7DB88F8D1D427A56BC193EFFCE8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				209FB4D9F1396850CF27FCAAC6F34A16 /* Pods-AioriaGetmo_Example-dummy.m in Sources */,
+				7566C48E7F2EB9E64D2A53252F2FAC94 /* Pods-AioriaGetmo_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		032CF3D37C4526948A5BA377277416DA /* PBXTargetDependency */ = {
+		76E0378A09F4881A9962719A6C606CA5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = FBSnapshotTestCase;
 			target = A5C935B614DD08342117AD0B06959CB9 /* FBSnapshotTestCase */;
-			targetProxy = 2232EE31845A4FA637EAE47C3F58A0CE /* PBXContainerItemProxy */;
+			targetProxy = 3E8869C3D830610DC5AD8D7C7CFC8B66 /* PBXContainerItemProxy */;
 		};
-		78ABDDA16A10EAE11960C4774B1C7310 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AioriaGetmo;
-			target = B5E4BED498FC3288C92EDB92904A8764 /* AioriaGetmo */;
-			targetProxy = A8680CD13BE1B9119EF9F9E387793A36 /* PBXContainerItemProxy */;
-		};
-		BD3038BE46993B96A57CECB8DB315C80 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = AioriaGetmo;
-			target = B5E4BED498FC3288C92EDB92904A8764 /* AioriaGetmo */;
-			targetProxy = A57A01BC7488702C2D09E8AC21AB87AF /* PBXContainerItemProxy */;
-		};
-		FAB47C7628F8D4120161D3140B5B35FC /* PBXTargetDependency */ = {
+		7CBF3EDF5A7F9C020A45DD2976C4FC49 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "AioriaGetmo-AioriaGetmo";
-			target = 97CFF89171E94AC0DFF09744F3F2ECED /* AioriaGetmo-AioriaGetmo */;
-			targetProxy = AD9DC40FF243A2A76DD56F1A29F81E54 /* PBXContainerItemProxy */;
+			target = 95F94E415642F4EA402C2FC7145D97A8 /* AioriaGetmo-AioriaGetmo */;
+			targetProxy = 3DF409478568038D61E0DCDE3801CAEB /* PBXContainerItemProxy */;
+		};
+		A3219EE8FAF732788EC664E181481A1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "AioriaGetmo-AioriaGetmo";
+			target = 95F94E415642F4EA402C2FC7145D97A8 /* AioriaGetmo-AioriaGetmo */;
+			targetProxy = D4A27CABD4BFDC8F915980037D4AE1EC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -746,7 +591,18 @@
 			};
 			name = Debug;
 		};
-		157DAD6C6FDF0875FFB7923B5C199A95 /* Release */ = {
+		2AEBF2633FC2C0BC2DE1788E601C55A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = AioriaGetmo;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4465082C46A369EF6DF3806BCDE407B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 4840EADBD265BC2DE9C9E29067F534BD /* Pods-AioriaGetmo_Tests.release.xcconfig */;
 			buildSettings = {
@@ -776,80 +632,7 @@
 			};
 			name = Release;
 		};
-		2285B81606C03555769ABD9270B43B5E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 61F3F0A33E615410B951DAC288A27854 /* Pods-AioriaGetmo_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AioriaGetmo_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AioriaGetmo_Example/Pods-AioriaGetmo_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AioriaGetmo_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		30CE07FC87D116AE641867902B9DF02E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7307092E01415C63086281CF1410E447 /* AioriaGetmo.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = AioriaGetmo;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		3AAD2D4E727ED9EA888A8CA99F261796 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F77DD4D0E2AF37EDDD2421D26ABC8CFD /* Pods-AioriaGetmo_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AioriaGetmo_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AioriaGetmo_Tests/Pods-AioriaGetmo_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_AioriaGetmo_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6EE1A56E689DD2E817E8BABFCC6686CC /* Debug */ = {
+		552D09A541DE739D02DE776490A79A58 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0EB93AD880461D130616057785A9C30 /* Pods-AioriaGetmo_Example.debug.xcconfig */;
 			buildSettings = {
@@ -906,9 +689,9 @@
 			};
 			name = Release;
 		};
-		8F72A7881E980E55279A3922B7E988E6 /* Release */ = {
+		9BCA780D6236C00C0469513CCB41284B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7307092E01415C63086281CF1410E447 /* AioriaGetmo.xcconfig */;
+			baseConfigurationReference = F77DD4D0E2AF37EDDD2421D26ABC8CFD /* Pods-AioriaGetmo_Tests.debug.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -917,21 +700,25 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AioriaGetmo/AioriaGetmo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AioriaGetmo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AioriaGetmo_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AioriaGetmo/AioriaGetmo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = AioriaGetmo;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AioriaGetmo_Tests/Pods-AioriaGetmo_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AioriaGetmo_Tests;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		BAF5175FA166657BEB96860F2316202A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -961,9 +748,8 @@
 			};
 			name = Debug;
 		};
-		C6ADD7D7BCA5EE641A68886C4BE83E30 /* Debug */ = {
+		E268B97638DD8AA6B0DC4DAA6989F4CF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7307092E01415C63086281CF1410E447 /* AioriaGetmo.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = AioriaGetmo;
@@ -971,11 +757,11 @@
 				SKIP_INSTALL = YES;
 				WRAPPER_EXTENSION = bundle;
 			};
-			name = Debug;
+			name = Release;
 		};
-		D6CCE5140F61B2C3256533BCDC40D2BB /* Debug */ = {
+		E5AFC434C2FB97A6B595F295A5F4BCED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7307092E01415C63086281CF1410E447 /* AioriaGetmo.xcconfig */;
+			baseConfigurationReference = 61F3F0A33E615410B951DAC288A27854 /* Pods-AioriaGetmo_Example.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -984,21 +770,24 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AioriaGetmo/AioriaGetmo-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AioriaGetmo/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-AioriaGetmo_Example/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AioriaGetmo/AioriaGetmo.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AioriaGetmo;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AioriaGetmo_Example/Pods-AioriaGetmo_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_AioriaGetmo_Example;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -1012,15 +801,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DF642A1DFB2842F0A6BCAF393F4659E /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				3AAD2D4E727ED9EA888A8CA99F261796 /* Debug */,
-				157DAD6C6FDF0875FFB7923B5C199A95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1030,29 +810,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		36393478D2F7E72BBA9D25E34CB75129 /* Build configuration list for PBXNativeTarget "AioriaGetmo-AioriaGetmo" */ = {
+		ABF0F66EE666802C3B37418E2C9859E5 /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C6ADD7D7BCA5EE641A68886C4BE83E30 /* Debug */,
-				30CE07FC87D116AE641867902B9DF02E /* Release */,
+				9BCA780D6236C00C0469513CCB41284B /* Debug */,
+				4465082C46A369EF6DF3806BCDE407B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		621DC3243A8BF357B41ED353288A9FDC /* Build configuration list for PBXNativeTarget "AioriaGetmo" */ = {
+		CC961DA5FA187C9FD324CB623FAD5C74 /* Build configuration list for PBXNativeTarget "AioriaGetmo-AioriaGetmo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6CCE5140F61B2C3256533BCDC40D2BB /* Debug */,
-				8F72A7881E980E55279A3922B7E988E6 /* Release */,
+				2AEBF2633FC2C0BC2DE1788E601C55A7 /* Debug */,
+				E268B97638DD8AA6B0DC4DAA6989F4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		67346A5F2286D0DA3FA50BD6DA152A34 /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Example" */ = {
+		D64D3A07F99628C4E44BF1BA622840F4 /* Build configuration list for PBXNativeTarget "Pods-AioriaGetmo_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6EE1A56E689DD2E817E8BABFCC6686CC /* Debug */,
-				2285B81606C03555769ABD9270B43B5E /* Release */,
+				552D09A541DE739D02DE776490A79A58 /* Debug */,
+				E5AFC434C2FB97A6B595F295A5F4BCED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

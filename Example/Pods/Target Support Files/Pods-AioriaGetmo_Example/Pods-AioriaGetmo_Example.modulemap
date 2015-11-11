@@ -1,6 +1,0 @@
-framework module Pods_AioriaGetmo_Example {
-  umbrella header "Pods-AioriaGetmo_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

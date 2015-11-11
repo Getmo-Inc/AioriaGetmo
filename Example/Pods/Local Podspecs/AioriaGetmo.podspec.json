@@ -21,5 +21,14 @@
     "AioriaGetmo": [
       "Pod/Assets/*.png"
     ]
-  }
+  },
+  "frameworks": [
+    "CoreLocation",
+    "AdSupport"
+  ],
+  "preserve_paths": "Assets/SmartpushSDK.framework",
+  "xcconfig": {
+    "OTHER_LDFLAGS": "-framework SmartpushSDK"
+  },
+  "vendored_frameworks": "Assets/SmartpushSDK.framework"
 }

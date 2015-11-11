@@ -1,6 +1,0 @@
-framework module AioriaGetmo {
-  umbrella header "AioriaGetmo-umbrella.h"
-
-  export *
-  module * { export * }
-}
