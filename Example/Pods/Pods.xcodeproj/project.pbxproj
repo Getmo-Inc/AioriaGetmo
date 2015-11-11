@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0EA5E9091BF3F7DB00DDECA9 /* SmartpushSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EA5E9081BF3F7DB00DDECA9 /* SmartpushSDK.framework */; };
 		163C6E8E5E7CEE1E0BEEB9CA0939DA3A /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 73003A0752F3CABAA497D1FD1F5E4E44 /* UIImage+Diff.m */; };
 		1F118728B3D74089480152A6B660EA9A /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = A729E2AD854B4CEB4EF52289C017EB3B /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		28F2071FFF5C5B0E9DEB6C3FE43A30CC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2393D1A899C707F79A64672C46ED238F /* UIKit.framework */; };
@@ -63,12 +62,12 @@
 		0345D737618C6A063BD152389ACCBF87 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
 		0528444EFC68619AD1FEB8A7CD4A01BA /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		0D03F86529CA7E403077203197B40F57 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0EA5E9081BF3F7DB00DDECA9 /* SmartpushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartpushSDK.framework; sourceTree = "<group>"; };
 		0EE4692BF9A76DAAA67A8FF4DABD27E8 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		0F01AA0F45B0B5CC535F9884FF44262A /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
 		12CC4BD9C5F6D514C917D7942DF2D2F4 /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		1632E2EE6A331265B0B9BCACF1DECBE0 /* Pods-AioriaGetmo_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AioriaGetmo_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		16E81C5A21A693271165A1539DF7D90C /* Pods-AioriaGetmo_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AioriaGetmo_Example-dummy.m"; sourceTree = "<group>"; };
+		187FCEEBECC31F90C677A6C6B0CC413B /* SmartpushSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SmartpushSDK.framework; sourceTree = "<group>"; };
 		18B36DE42E1345E44438461416D886A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1AD873BC718A3B57BC17D2600FFF4C99 /* Pods-AioriaGetmo_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AioriaGetmo_Example-resources.sh"; sourceTree = "<group>"; };
 		2393D1A899C707F79A64672C46ED238F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
@@ -122,7 +121,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0EA5E9091BF3F7DB00DDECA9 /* SmartpushSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,10 +162,10 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		49A307D2FCE2AB8B6B359F34E131D1D9 /* Development Pods */ = {
+		3F46EE04ACD4F717C52313F4FD5A7EC8 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				F7203C0F65D86AB94FAD27BC1A376047 /* AioriaGetmo */,
+				8BCEDD38C605A3C38ECBE914BFDC7CC5 /* AioriaGetmo */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -191,6 +189,14 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		6EBB8B6BDA004ABCFDAB4E7ED6E2B283 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187FCEEBECC31F90C677A6C6B0CC413B /* SmartpushSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		772802E93FC7C033C99D4A0ACFFFD652 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -204,7 +210,7 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				49A307D2FCE2AB8B6B359F34E131D1D9 /* Development Pods */,
+				3F46EE04ACD4F717C52313F4FD5A7EC8 /* Development Pods */,
 				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
 				FBD2D672921284E66F309CA3462F84D6 /* Pods */,
 				B8DF8381640D2570D83B6C922D2BB716 /* Products */,
@@ -220,6 +226,15 @@
 				329CC004AB83B695DB001E6BBD6F7707 /* SwiftSupport */,
 			);
 			path = FBSnapshotTestCase;
+			sourceTree = "<group>";
+		};
+		8BCEDD38C605A3C38ECBE914BFDC7CC5 /* AioriaGetmo */ = {
+			isa = PBXGroup;
+			children = (
+				6EBB8B6BDA004ABCFDAB4E7ED6E2B283 /* Frameworks */,
+			);
+			name = AioriaGetmo;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		9EED1D6971FE9E5F8808AB91A08C7CAA /* Pods-AioriaGetmo_Example */ = {
@@ -291,15 +306,6 @@
 			);
 			name = "Pods-AioriaGetmo_Tests";
 			path = "Target Support Files/Pods-AioriaGetmo_Tests";
-			sourceTree = "<group>";
-		};
-		F7203C0F65D86AB94FAD27BC1A376047 /* AioriaGetmo */ = {
-			isa = PBXGroup;
-			children = (
-				0EA5E9081BF3F7DB00DDECA9 /* SmartpushSDK.framework */,
-			);
-			name = AioriaGetmo;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		FBD2D672921284E66F309CA3462F84D6 /* Pods */ = {

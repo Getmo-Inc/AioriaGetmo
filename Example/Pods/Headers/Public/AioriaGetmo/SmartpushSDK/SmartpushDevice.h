@@ -1,0 +1,1 @@
+../../../../../../SmartpushSDK.framework/Versions/A/Headers/SmartpushDevice.h

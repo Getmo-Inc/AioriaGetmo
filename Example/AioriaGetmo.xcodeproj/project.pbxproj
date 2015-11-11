@@ -516,6 +516,7 @@
 				GCC_PREFIX_HEADER = "AioriaGetmo/AioriaGetmo-Prefix.pch";
 				INFOPLIST_FILE = "AioriaGetmo/AioriaGetmo-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aioria.AioriaGetmo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -531,6 +532,7 @@
 				GCC_PREFIX_HEADER = "AioriaGetmo/AioriaGetmo-Prefix.pch";
 				INFOPLIST_FILE = "AioriaGetmo/AioriaGetmo-Info.plist";
 				MODULE_NAME = ExampleApp;
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.aioria.AioriaGetmo-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
