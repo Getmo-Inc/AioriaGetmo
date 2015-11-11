@@ -6,9 +6,8 @@
 //  Copyright (c) 2015 Gustavo Tagliari. All rights reserved.
 //
 
-@import UIKit;
-
-#import "AioriaGetmo/SmartpushSDK/SmartpushSDK.h"
+#import <UIKit/UIKit.h>
+#import <AioriaGetmo/SmartpushSDK.h>
 
 @interface ASHGetmoAppDelegate : UIResponder <UIApplicationDelegate, SmartpushSDKDelegate>
 
